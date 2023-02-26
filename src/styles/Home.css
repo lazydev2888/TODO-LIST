@@ -1,0 +1,55 @@
+.container{
+    background-color: rgb(255, 236, 226);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax 8vmax;
+    box-sizing: border-box;
+}
+.container > form {
+    display: flex;
+    flex-direction: column;
+}
+.container > h1{
+    text-align: center;
+    margin: 2px;
+}
+input, textarea, button{
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+
+/* Import Task Css */
+.task{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.task > div{
+    width: 100%;
+}
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+.task button:hover{
+    background-color: red;
+}

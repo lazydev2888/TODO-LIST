@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerdiv{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 1.5%;
+    color: white;
+    text-align: center;
+
+}
